@@ -1,0 +1,1243 @@
+{
+  "prs": [
+    {
+      "title": "Dx shopping orders completed",
+      "url": "https://github.com/doordash/ios/pull/70928",
+      "repo": "doordash/ios",
+      "branch": "dx-shopping-orders-completed",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "pedro-dd",
+        "jayciro",
+        "rlongshore",
+        "flux-dd",
+        "empiredanger"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-01T18:56:51Z",
+      "updatedAt": "2026-04-20T20:35:18Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "fix(unity): Phase 1 \u2014 to-do copy in announcements side sheet / modal",
+      "url": "https://github.com/doordash/web-next/pull/105611",
+      "repo": "doordash/web-next",
+      "branch": "thq-copy-phase-1-side-sheet",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "nitinshettydd",
+        "jayciro",
+        "justindeocampodd",
+        "richnelson-dd",
+        "gling-dd",
+        "vluoto",
+        "dd-zecheng"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-03-25T19:05:06Z",
+      "updatedAt": "2026-04-20T20:44:33Z",
+      "author": "jayciro",
+      "mergeable": "MERGEABLE"
+    },
+    {
+      "title": "Update localization strings to change \"My Schedule\" to \"My schedule\" \u2026",
+      "url": "https://github.com/doordash/ios/pull/65430",
+      "repo": "doordash/ios",
+      "branch": "jc-myschedule",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "flux-dd",
+        "dd-translation-pr-approve",
+        "lena-dd",
+        "empiredanger"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-03-04T01:22:53Z",
+      "updatedAt": "2026-04-21T23:52:03Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Fix Dasher select end time sheet content",
+      "url": "https://github.com/doordash/ios/pull/64129",
+      "repo": "doordash/ios",
+      "branch": "fix/select-end-time-sheet-content",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "maxlinsenbardd",
+        "jayciro",
+        "flux-dd",
+        "dd-translation-pr-approve",
+        "amrogazlandd",
+        "empiredanger"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Merged!",
+      "createdAt": "2026-02-25T20:28:08Z",
+      "updatedAt": "2026-04-21T15:00:47Z",
+      "author": "jayciro"
+    },
+    {
+      "title": "Add user file for Jay Castro",
+      "url": "https://github.com/doordash/users/pull/4336",
+      "repo": "doordash/users",
+      "branch": "",
+      "state": "MERGED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Merged",
+      "createdAt": "2026-01-30T00:00:00Z",
+      "updatedAt": "2026-01-30T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-309 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/77989",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-309_dx-android",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "lena-dd",
+        "jayciro",
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-03T16:30:40Z",
+      "updatedAt": "2026-04-21T15:07:35Z",
+      "author": "app/dd-robotino",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-275 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/77193",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-275_dx-android",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "copilot-pull-request-reviewer",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-01T18:03:36Z",
+      "updatedAt": "2026-04-22T00:37:26Z",
+      "author": "app/dd-robotino",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-254 Content Changes Requested",
+      "url": "https://github.com/doordash/web/pull/110165",
+      "repo": "doordash/web",
+      "branch": "i18n_DDS-254_mx-portal",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-20T21:09:04Z",
+      "updatedAt": "2026-04-21T17:08:19Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-265 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/73696",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-265_dx-android",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Merged!",
+      "createdAt": "2026-03-20T21:08:01Z",
+      "updatedAt": "2026-04-21T22:17:42Z",
+      "author": "app/dd-robotino",
+      "mergeable": "MERGEABLE"
+    },
+    {
+      "title": "DDS-266 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/68770",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-266_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "flux-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-20T21:07:10Z",
+      "updatedAt": "2026-04-21T16:52:37Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-267 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/68768",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-267_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "flux-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "Closed",
+      "createdAt": "2026-03-20T21:05:58Z",
+      "updatedAt": "2026-04-21T16:52:39Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-269 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/73695",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-269_dx-android",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Merged!",
+      "createdAt": "2026-03-20T21:04:58Z",
+      "updatedAt": "2026-04-20T21:23:55Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-270 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/73694",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-270_dx-android",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-20T21:03:04Z",
+      "updatedAt": "2026-04-21T17:26:48Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-270 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/68767",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-270_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-20T21:03:03Z",
+      "updatedAt": "2026-04-21T16:52:39Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-271 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/73693",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-271_dx-android",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-03-20T21:00:28Z",
+      "updatedAt": "2026-04-22T17:45:51Z",
+      "author": "app/dd-robotino",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-268 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/68169",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-268_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "flux-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-18T16:44:58Z",
+      "updatedAt": "2026-04-21T16:52:41Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-274 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/67662",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-274_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "pablo-dd",
+        "flux-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "Closed",
+      "createdAt": "2026-03-16T16:49:52Z",
+      "updatedAt": "2026-04-21T16:52:41Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-264 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/70080",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-264_dx-android",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Merged!",
+      "createdAt": "2026-03-11T16:56:54Z",
+      "updatedAt": "2026-04-21T22:17:30Z",
+      "author": "app/dd-robotino",
+      "mergeable": "MERGEABLE"
+    },
+    {
+      "title": "DDS-255 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/67918",
+      "repo": "doordash/android",
+      "branch": "i18n_DDS-255_dx-android",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-04T20:00:18Z",
+      "updatedAt": "2026-04-21T16:54:23Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-256 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/65600",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-256_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "empiredanger"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-04T19:59:20Z",
+      "updatedAt": "2026-04-21T16:52:42Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-257 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/67916",
+      "repo": "doordash/android",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-04T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-257 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/65599",
+      "repo": "doordash/ios",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-04T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-258 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/67915",
+      "repo": "doordash/android",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-04T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-258 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/65596",
+      "repo": "doordash/ios",
+      "branch": "i18n_DDS-258_dx-ios",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "empiredanger"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-03-04T19:56:41Z",
+      "updatedAt": "2026-04-21T16:52:43Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "Bitrise Suggested Dasher Snapshots",
+      "url": "https://github.com/doordash/ios/pull/65435",
+      "repo": "doordash/ios",
+      "branch": "",
+      "state": "MERGED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Merged",
+      "createdAt": "2026-03-04T00:00:00Z",
+      "updatedAt": "2026-03-31T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-238 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/64497",
+      "repo": "doordash/ios",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-02-26T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-237 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/66310",
+      "repo": "doordash/android",
+      "branch": "i18n_DDS-237_mx-android",
+      "state": "CLOSED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-robotino",
+        "stephencheng95",
+        "jennyzhoudd",
+        "aijones",
+        "cristiangoncas-dd",
+        "dhartmanDD",
+        "ghlin-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-02-26T21:07:38Z",
+      "updatedAt": "2026-04-21T16:54:29Z",
+      "author": "app/dd-robotino"
+    },
+    {
+      "title": "DDS-231 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/62876",
+      "repo": "doordash/ios",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-02-19T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-231 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/63966",
+      "repo": "doordash/android",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-02-19T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-230 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/62875",
+      "repo": "doordash/ios",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-02-19T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "DDS-230 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/63965",
+      "repo": "doordash/android",
+      "branch": "",
+      "state": "CLOSED",
+      "reviewStatus": "PENDING",
+      "reviewers": [],
+      "ciStatus": "PENDING",
+      "tldr": "Closed",
+      "createdAt": "2026-02-19T00:00:00Z",
+      "updatedAt": "2026-03-13T00:00:00Z",
+      "author": ""
+    },
+    {
+      "title": "[NO-TICKET] Fix 'mins' abbreviation to 'min' in Customer Favorites store metadata",
+      "url": "https://github.com/doordash/ios/pull/73995",
+      "repo": "doordash/ios",
+      "branch": "jayc/cx-favs-mins-abbreviation",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "lena-dd"
+      ],
+      "ciStatus": "SUCCESS",
+      "tldr": "Merged!",
+      "createdAt": "2026-04-16T21:28:19Z",
+      "updatedAt": "2026-04-17T16:26:56Z",
+      "author": "jayciro"
+    },
+    {
+      "title": "[NO-TICKET] Fix 'mins' abbreviation to 'min' in Customer Favorites store metadata",
+      "url": "https://github.com/doordash/android/pull/82839",
+      "repo": "doordash/android",
+      "branch": "jayc/cx-favs-mins-abbreviation",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "lena-dd",
+        "jayciro",
+        "michaeladaikalarajdd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-16T21:58:52Z",
+      "updatedAt": "2026-04-21T22:18:22Z",
+      "author": "jayciro",
+      "mergeable": "MERGEABLE"
+    },
+    {
+      "title": "DDS-255 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/84156",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-255_dx-android",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "teedesai"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-21T17:07:28Z",
+      "updatedAt": "2026-04-22T00:37:47Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-237 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/84160",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-237_mx-android",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "teedesai",
+        "aijones",
+        "chadcdd",
+        "cristiangoncas-dd",
+        "dhartmanDD",
+        "stephencheng95"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-21T17:13:37Z",
+      "updatedAt": "2026-04-21T22:18:26Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-266 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/74663",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-266_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:19:31Z",
+      "updatedAt": "2026-04-21T21:24:39Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-267 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/74665",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-267_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "flux-dd",
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:22:23Z",
+      "updatedAt": "2026-04-21T22:06:41Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-270 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/74669",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-270_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:26:58Z",
+      "updatedAt": "2026-04-21T22:19:46Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-270 Content Changes Requested",
+      "url": "https://github.com/doordash/android/pull/84171",
+      "repo": "doordash/android",
+      "branch": "i18n/DDS-270_dx-android",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "teedesai"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-21T17:27:00Z",
+      "updatedAt": "2026-04-22T00:37:25Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-268 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/74673",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-268_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "jayciro",
+        "flux-dd",
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:30:35Z",
+      "updatedAt": "2026-04-21T22:18:55Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-274 Content Changes Requested (earnings.v2.dashinfo.endTime)",
+      "url": "https://github.com/doordash/ios/pull/74677",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-274a_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:34:55Z",
+      "updatedAt": "2026-04-22T17:47:39Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-274 Content Changes Requested (calendar.add.endTime)",
+      "url": "https://github.com/doordash/ios/pull/74679",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-274b_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:35:31Z",
+      "updatedAt": "2026-04-22T17:47:11Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-274 Content Changes Requested (earnings.endTime)",
+      "url": "https://github.com/doordash/ios/pull/74680",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-274c_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:36:08Z",
+      "updatedAt": "2026-04-22T17:46:29Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-256 Content Changes Requested",
+      "url": "https://github.com/doordash/ios/pull/74685",
+      "repo": "doordash/ios",
+      "branch": "i18n/DDS-256_dx-ios",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "flux-dd",
+        "teedesai"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T17:43:49Z",
+      "updatedAt": "2026-04-21T21:26:46Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "DDS-254 Content Changes Requested",
+      "url": "https://github.com/doordash/web-next/pull/113646",
+      "repo": "doordash/web-next",
+      "branch": "i18n/DDS-254_mx-portal",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "teedesai"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-21T17:54:11Z",
+      "updatedAt": "2026-04-21T22:17:55Z",
+      "author": "jayciro",
+      "mergeable": "MERGEABLE"
+    },
+    {
+      "title": "Sentence case: checkout and cart button CTAs",
+      "url": "https://github.com/doordash/ios/pull/74510",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-checkout",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-21T20:46:08.711419+00:00",
+      "updatedAt": "2026-04-22T20:32:27Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Sentence case: store and browse button CTAs",
+      "url": "https://github.com/doordash/ios/pull/74511",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-store",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "copilot-pull-request-reviewer",
+        "lena-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T20:46:08.711571+00:00",
+      "updatedAt": "2026-04-22T19:19:49Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Sentence case: payment button CTAs",
+      "url": "https://github.com/doordash/ios/pull/74512",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-payment",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "lena-dd",
+        "flux-dd",
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Merged!",
+      "createdAt": "2026-04-21T20:46:08.711574+00:00",
+      "updatedAt": "2026-04-22T18:58:42Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case post-checkout button CTAs",
+      "url": "https://github.com/doordash/ios/pull/74721",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-postcheckout",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "flux-dd",
+        "copilot-pull-request-reviewer",
+        "lena-dd",
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T20:46:08.711576+00:00",
+      "updatedAt": "2026-04-22T18:24:23Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case address button CTAs",
+      "url": "https://github.com/doordash/ios/pull/74722",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-address",
+      "state": "MERGED",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "lena-dd",
+        "dd-translation-pr-approve"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Merged!",
+      "createdAt": "2026-04-21T20:46:08.711578+00:00",
+      "updatedAt": "2026-04-22T18:20:47Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case permissions and settings button CTAs",
+      "url": "https://github.com/doordash/ios/pull/74723",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-permissions",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "flux-dd",
+        "copilot-pull-request-reviewer",
+        "lena-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-21T20:46:08.711580+00:00",
+      "updatedAt": "2026-04-22T18:54:26Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case checkout button CTAs",
+      "url": "https://github.com/doordash/android/pull/85291",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-checkout",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057821+00:00",
+      "updatedAt": "2026-04-23T18:54:29Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case store and browse button CTAs",
+      "url": "https://github.com/doordash/android/pull/85292",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-store",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057951+00:00",
+      "updatedAt": "2026-04-23T18:54:36Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case order status and history button CTAs",
+      "url": "https://github.com/doordash/android/pull/85293",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-order-status",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-23T18:56:40.057954+00:00",
+      "updatedAt": "2026-04-23T18:54:38Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case ratings and reviews button CTAs",
+      "url": "https://github.com/doordash/android/pull/85295",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-ratings",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057956+00:00",
+      "updatedAt": "2026-04-23T18:54:40Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case gift cards and gifts button CTAs",
+      "url": "https://github.com/doordash/android/pull/85296",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-gifts",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-23T18:56:40.057958+00:00",
+      "updatedAt": "2026-04-23T18:54:42Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case group order button CTAs",
+      "url": "https://github.com/doordash/android/pull/85297",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-grouporder",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057960+00:00",
+      "updatedAt": "2026-04-23T18:55:37Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case location and address button CTAs",
+      "url": "https://github.com/doordash/android/pull/85298",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-location",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057961+00:00",
+      "updatedAt": "2026-04-23T18:54:46Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case payments and expense button CTAs",
+      "url": "https://github.com/doordash/android/pull/85299",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-payments",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-23T18:56:40.057963+00:00",
+      "updatedAt": "2026-04-23T18:54:48Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case convenience and grocery button CTAs",
+      "url": "https://github.com/doordash/android/pull/85301",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-convenience",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057965+00:00",
+      "updatedAt": "2026-04-23T18:54:50Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case onboarding and verification button CTAs",
+      "url": "https://github.com/doordash/android/pull/85302",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-onboarding",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-23T18:56:40.057966+00:00",
+      "updatedAt": "2026-04-23T18:54:52Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case support and safety button CTAs",
+      "url": "https://github.com/doordash/android/pull/85303",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-support",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057968+00:00",
+      "updatedAt": "2026-04-23T18:54:54Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case subscriptions and DashPass button CTAs",
+      "url": "https://github.com/doordash/android/pull/85304",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-subscriptions",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057969+00:00",
+      "updatedAt": "2026-04-23T18:55:51Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case misc button CTAs",
+      "url": "https://github.com/doordash/android/pull/85305",
+      "repo": "doordash/android",
+      "branch": "content/sentence-case-cx-misc",
+      "state": "OPEN",
+      "reviewStatus": "PENDING",
+      "reviewers": [
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Waiting on review",
+      "createdAt": "2026-04-23T18:56:40.057971+00:00",
+      "updatedAt": "2026-04-23T18:56:26Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case subscriptions and upsell button CTAs",
+      "url": "https://github.com/doordash/ios/pull/75010",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-subscriptions",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "dd-translation-pr-approve",
+        "copilot-pull-request-reviewer",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057973+00:00",
+      "updatedAt": "2026-04-22T21:24:33Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case account and auth button CTAs",
+      "url": "https://github.com/doordash/ios/pull/75011",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-account",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-23T18:56:40.057975+00:00",
+      "updatedAt": "2026-04-22T21:28:33Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case group order button CTAs",
+      "url": "https://github.com/doordash/ios/pull/75013",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-grouporder",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-23T18:56:40.057978+00:00",
+      "updatedAt": "2026-04-22T21:25:37Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case work benefits button CTAs",
+      "url": "https://github.com/doordash/ios/pull/75014",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-workbenefits",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057980+00:00",
+      "updatedAt": "2026-04-22T21:24:09Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "Content: Sentence-case remaining button CTAs",
+      "url": "https://github.com/doordash/ios/pull/75015",
+      "repo": "doordash/ios",
+      "branch": "content/sentence-case-misc",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
+        "lena-dd"
+      ],
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
+      "createdAt": "2026-04-23T18:56:40.057982+00:00",
+      "updatedAt": "2026-04-22T21:31:56Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    },
+    {
+      "title": "[NO-TICKET] Follow-up: harden mins normalization and add unit tests",
+      "url": "https://github.com/doordash/ios/pull/74459",
+      "repo": "doordash/ios",
+      "branch": "jayc/cx-favs-mins-followup",
+      "state": "OPEN",
+      "reviewStatus": "APPROVED",
+      "reviewers": [
+        "copilot-pull-request-reviewer",
+        "lena-dd",
+        "flux-dd",
+        "linshucocopeng",
+        "ruthvikram12"
+      ],
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
+      "createdAt": "2026-04-23T18:56:40.057984+00:00",
+      "updatedAt": "2026-04-20T20:37:17Z",
+      "author": "jayciro",
+      "mergeable": "UNKNOWN"
+    }
+  ],
+  "lastRefreshed": "2026-04-23T18:57:20.502374+00:00"
+}

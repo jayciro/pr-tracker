@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio PR Tracker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface-hover: #1c2129;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --green: #3fb950;
+      --red: #f85149;
+      --orange: #d29922;
+      --purple: #bc8cff;
+      --yellow: #e3b341;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    .header-info h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+
+    .header-meta {
+      color: var(--text-muted);
+      font-size: 0.8125rem;
+      margin-top: 0.125rem;
+    }
+
+    .header-meta .separator {
+      margin: 0 0.375rem;
+      opacity: 0.4;
+    }
+
+    .page-title {
+      margin-bottom: 1.5rem;
+    }
+
+    .page-title h2 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.1875rem;
+    }
+
+    .page-title p {
+      color: var(--text-muted);
+      font-size: 0.8125rem;
+    }
+
+    .rollup {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    .rollup-card {
+      flex: 1;
+      min-width: 140px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .rollup-card.total {
+      border-color: var(--accent);
+      background: rgba(88, 166, 255, 0.06);
+    }
+
+    .rollup-number {
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .rollup-number.num-total  { color: var(--accent); }
+    .rollup-number.num-open   { color: var(--green); }
+    .rollup-number.num-merged { color: var(--purple); }
+    .rollup-number.num-closed { color: var(--text-muted); }
+
+    .rollup-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .rollup-sub {
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      opacity: 0.7;
+      margin-top: 0.125rem;
+      line-height: 1.3;
+    }
+
+    .summary-bar-wrapper {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.625rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .summary-bar-wrapper > .sort-label {
+      padding-top: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .summary-bar {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .summary-chip {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem 0.875rem;
+      font-size: 0.8125rem;
+      display: flex;
+      align-items: center;
+      gap: 0.375rem;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .summary-chip:hover {
+      border-color: var(--text-muted);
+      background: var(--surface-hover);
+    }
+
+    .summary-chip.active {
+      border-color: var(--accent);
+      background: rgba(88, 166, 255, 0.08);
+    }
+
+    .chip-content {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.3;
+    }
+
+    .chip-main {
+      font-weight: 500;
+    }
+
+    .chip-date {
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
+
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .filter-label {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    .home-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.75rem;
+      color: var(--accent);
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      font-family: inherit;
+    }
+
+    .home-btn:hover {
+      border-color: var(--accent);
+      background: rgba(88, 166, 255, 0.08);
+    }
+
+    .filter-bar.hidden { display: none; }
+
+    .sort-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .sort-label {
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .sort-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.3125rem 0.625rem;
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
+      font-family: inherit;
+    }
+
+    .sort-btn:hover {
+      border-color: var(--text-muted);
+      background: var(--surface-hover);
+    }
+
+    .sort-btn.active {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(88, 166, 255, 0.08);
+    }
+
+    .summary-chip .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .dot-open { background: var(--green); }
+    .dot-review { background: var(--orange); }
+    .dot-ci { background: var(--red); }
+    .dot-merged { background: var(--purple); }
+    .dot-closed { background: var(--red); }
+    .dot-ready { background: var(--accent); }
+
+    .pr-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.625rem;
+      transition: background 0.15s;
+    }
+
+    .pr-card:hover {
+      background: var(--surface-hover);
+    }
+
+    .pr-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .pr-title {
+      font-weight: 600;
+      font-size: 0.9375rem;
+      color: var(--accent);
+      text-decoration: none;
+      flex: 1;
+    }
+
+    .pr-title:hover {
+      text-decoration: underline;
+    }
+
+    .pr-number {
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .state-badge {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.1875rem 0.5rem;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    .state-open { background: rgba(63, 185, 80, 0.15); color: var(--green); }
+    .state-merged { background: rgba(188, 140, 255, 0.15); color: var(--purple); }
+    .state-closed { background: rgba(248, 81, 73, 0.15); color: var(--red); }
+
+    .pr-tldr {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      margin-bottom: 0.625rem;
+      padding: 0.375rem 0.625rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 4px;
+      border-left: 3px solid var(--border);
+    }
+
+    .pr-tldr.blocking { border-left-color: var(--orange); }
+    .pr-tldr.failing { border-left-color: var(--red); }
+    .pr-tldr.ready { border-left-color: var(--green); }
+    .pr-tldr.merged { border-left-color: var(--purple); }
+
+    .merged-celebration {
+      font-size: 0.8125rem;
+      color: var(--purple);
+      padding: 0.375rem 0.625rem;
+      margin-bottom: 0.625rem;
+      background: rgba(188, 140, 255, 0.06);
+      border-radius: 4px;
+      border-left: 3px solid var(--purple);
+    }
+
+    .pr-meta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .pr-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .review-approved { color: var(--green); }
+    .review-changes { color: var(--orange); }
+    .review-pending { color: var(--text-muted); }
+    .ci-pass { color: var(--green); }
+    .ci-fail { color: var(--red); }
+    .ci-pending { color: var(--orange); }
+    .days-stale { color: var(--red); font-weight: 600; }
+    .days-ok { color: var(--text-muted); }
+
+    .section-heading {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin: 1.5rem 0 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 0.375rem;
+    }
+
+    .section-heading .chevron {
+      transition: transform 0.2s;
+      font-size: 0.625rem;
+    }
+
+    .section-heading.collapsed .chevron {
+      transform: rotate(-90deg);
+    }
+
+    .section-content.hidden {
+      display: none;
+    }
+
+    .empty-state {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 3rem 1rem;
+      font-size: 0.875rem;
+    }
+
+    .empty-state p:first-child {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .last-updated {
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      text-align: right;
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="page-title">
+    <h2>Studio PR Tracker</h2>
+    <p>Personal pull request dashboard&mdash;what's open, what's blocking, and what needs attention.</p>
+  </div>
+
+  <header>
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/7505994?v=4" alt="Jay Castro">
+    <div class="header-info">
+      <h1>Jay Castro</h1>
+      <div class="header-meta">
+        Senior Content Designer<span class="separator">&middot;</span>Dasher
+      </div>
+    </div>
+  </header>
+
+  <div id="rollup" class="rollup"></div>
+
+  <div class="summary-bar-wrapper">
+    <span class="sort-label">View by</span>
+    <div id="summary-bar" class="summary-bar"></div>
+  </div>
+  <div id="filter-bar" class="filter-bar hidden">
+    <button class="home-btn" onclick="clearFilter()">&#8592; Home</button>
+    <span id="filter-label" class="filter-label"></span>
+  </div>
+  <div id="sort-bar" class="sort-bar">
+    <span class="sort-label">Sort by</span>
+    <button class="sort-btn active" data-sort="created-old" onclick="setSort('created-old')">Oldest first</button>
+    <button class="sort-btn" data-sort="created-new" onclick="setSort('created-new')">Newest first</button>
+    <button class="sort-btn" data-sort="updated" onclick="setSort('updated')">Last updated</button>
+  </div>
+  <div id="open-section"></div>
+  <div id="merged-section"></div>
+  <div id="closed-section"></div>
+  <div id="filtered-section"></div>
+  <div id="last-updated" class="last-updated"></div>
+
+  <script>
+    let allPrs = [];
+    let lastRefreshed = null;
+    let activeFilter = null;
+    let activeSort = 'created-old';
+
+    const filters = {
+      open:    { label: 'Open',              fn: p => p.state === 'OPEN' },
+      review:  { label: 'Waiting on review', fn: p => p.state === 'OPEN' && (!p.reviewStatus || p.reviewStatus === 'PENDING') },
+      ci:      { label: 'CI failing',        fn: p => p.state === 'OPEN' && (p.ciStatus === 'FAILURE' || p.ciStatus === 'ERROR') },
+      ready:   { label: 'Ready to merge',    fn: p => p.state === 'OPEN' && p.reviewStatus === 'APPROVED' },
+      merged:  { label: 'Merged',            fn: p => p.state === 'MERGED' },
+      closed:  { label: 'Closed',            fn: p => p.state === 'CLOSED' },
+    };
+
+    async function loadData() {
+      try {
+        const resp = await fetch('data.json');
+        if (!resp.ok) throw new Error('No data');
+        return await resp.json();
+      } catch {
+        return { prs: [], lastRefreshed: null };
+      }
+    }
+
+    function daysAgo(dateStr) {
+      if (!dateStr) return null;
+      const diff = Date.now() - new Date(dateStr).getTime();
+      return Math.floor(diff / (1000 * 60 * 60 * 24));
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return '\u2014';
+      return new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function tldrClass(tldr) {
+      if (!tldr) return '';
+      const lower = tldr.toLowerCase();
+      if (lower === 'merged') return 'merged';
+      if (lower.includes('ready to merge') || lower.includes('approved')) return 'ready';
+      if (lower.includes('failing') || lower.includes('conflict')) return 'failing';
+      return 'blocking';
+    }
+
+    function ciLabel(ci) {
+      if (!ci) return null;
+      if (ci === 'SUCCESS') return { text: 'CI passing', cls: 'ci-pass' };
+      if (ci === 'FAILURE' || ci === 'ERROR') return { text: 'CI failing', cls: 'ci-fail' };
+      return { text: 'CI pending', cls: 'ci-pending' };
+    }
+
+    function reviewLabel(review) {
+      if (!review) return null;
+      if (review === 'APPROVED') return { text: 'Approved', cls: 'review-approved' };
+      if (review === 'CHANGES_REQUESTED') return { text: 'Changes requested', cls: 'review-changes' };
+      return { text: 'Review pending', cls: 'review-pending' };
+    }
+
+    function prNumber(url) {
+      if (!url) return null;
+      const match = url.match(/\/pull\/(\d+)/);
+      return match ? match[1] : null;
+    }
+
+    function renderCard(pr) {
+      const days = daysAgo(pr.createdAt);
+      const daysClass = days !== null && days > 3 ? 'days-stale' : 'days-ok';
+      const stateClass = pr.state === 'OPEN' ? 'state-open' : pr.state === 'MERGED' ? 'state-merged' : 'state-closed';
+      const ci = ciLabel(pr.ciStatus);
+      const review = reviewLabel(pr.reviewStatus);
+      const reviewers = (pr.reviewers || []).join(', ') || null;
+      const isMerged = pr.state === 'MERGED';
+      const prNum = prNumber(pr.url);
+
+      let statusLine = '';
+      if (isMerged) {
+        statusLine = `<div class="merged-celebration">Shipped ${formatDate(pr.updatedAt)}</div>`;
+      } else if (pr.tldr) {
+        statusLine = `<div class="pr-tldr ${tldrClass(pr.tldr)}">${pr.tldr}</div>`;
+      }
+
+      return `
+        <div class="pr-card">
+          <div class="pr-card-header">
+            <a class="pr-title" href="${pr.url}" target="_blank" rel="noopener">${prNum ? `<span class="pr-number">#${prNum}</span> ` : ''}${pr.title || 'Untitled PR'}</a>
+            <span class="state-badge ${stateClass}">${pr.state || 'OPEN'}</span>
+          </div>
+          ${statusLine}
+          <div class="pr-meta">
+            <span>${pr.repo || '\u2014'}</span>
+            ${!isMerged && review ? `<span class="${review.cls}">${review.text}</span>` : ''}
+            ${!isMerged && reviewers ? `<span>Reviewers: ${reviewers}</span>` : ''}
+            ${!isMerged && ci ? `<span class="${ci.cls}">${ci.text}</span>` : ''}
+            <span class="${daysClass}">${days !== null ? (days === 0 ? 'Today' : days + 'd ago') : '\u2014'}</span>
+            ${!isMerged ? `<span>Updated ${formatDate(pr.updatedAt)}</span>` : ''}
+          </div>
+        </div>
+      `;
+    }
+
+    function dateRange(prs) {
+      if (!prs.length) return '';
+      const field = activeSort === 'updated' ? 'updatedAt' : 'createdAt';
+      const dates = prs.map(p => new Date(p[field])).filter(d => !isNaN(d));
+      if (!dates.length) return '';
+      const oldest = new Date(Math.min(...dates));
+      const newest = new Date(Math.max(...dates));
+      const fmt = d => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      if (fmt(oldest) === fmt(newest)) return fmt(oldest);
+      return `${fmt(oldest)} \u2013 ${fmt(newest)}`;
+    }
+
+    function renderRollup(prs) {
+      const open = prs.filter(p => p.state === 'OPEN');
+      const merged = prs.filter(p => p.state === 'MERGED');
+      const closed = prs.filter(p => p.state === 'CLOSED');
+
+      const readyToMerge = open.filter(p => p.reviewStatus === 'APPROVED' && p.ciStatus === 'SUCCESS').length;
+      const ciFailing = open.filter(p => p.ciStatus === 'FAILURE' || p.ciStatus === 'ERROR').length;
+      const awaitingReview = open.filter(p => !p.reviewStatus || p.reviewStatus === 'PENDING').length;
+      const changesReq = open.filter(p => p.reviewStatus === 'CHANGES_REQUESTED').length;
+
+      const openSubs = [];
+      if (readyToMerge) openSubs.push(`${readyToMerge} ready to merge`);
+      if (awaitingReview) openSubs.push(`${awaitingReview} awaiting review`);
+      if (ciFailing) openSubs.push(`${ciFailing} CI failing`);
+      if (changesReq) openSubs.push(`${changesReq} changes requested`);
+
+      return `
+        <div class="rollup-card total">
+          <span class="rollup-number num-total">${prs.length}</span>
+          <span class="rollup-label">Total PRs</span>
+        </div>
+        <div class="rollup-card">
+          <span class="rollup-number num-open">${open.length}</span>
+          <span class="rollup-label">Open</span>
+          ${openSubs.length ? `<span class="rollup-sub">${openSubs.join(' \u00b7 ')}</span>` : ''}
+        </div>
+        <div class="rollup-card">
+          <span class="rollup-number num-merged">${merged.length}</span>
+          <span class="rollup-label">Merged</span>
+        </div>
+        <div class="rollup-card">
+          <span class="rollup-number num-closed">${closed.length}</span>
+          <span class="rollup-label">Closed / Cancelled</span>
+        </div>
+      `;
+    }
+
+    function renderSummary(prs) {
+      const open = prs.filter(p => p.state === 'OPEN');
+      const waitingReview = open.filter(p => !p.reviewStatus || p.reviewStatus === 'PENDING');
+      const ciFailing = open.filter(p => p.ciStatus === 'FAILURE' || p.ciStatus === 'ERROR');
+      const approved = open.filter(p => p.reviewStatus === 'APPROVED');
+      const merged = prs.filter(p => p.state === 'MERGED');
+      const closed = prs.filter(p => p.state === 'CLOSED');
+
+      const items = [
+        { key: 'open',   dot: 'dot-open',   prs: open,          label: 'open' },
+        { key: 'review', dot: 'dot-review',  prs: waitingReview, label: 'waiting on review' },
+        { key: 'ci',     dot: 'dot-ci',      prs: ciFailing,     label: 'CI failing' },
+        { key: 'ready',  dot: 'dot-ready',   prs: approved,      label: 'ready to merge' },
+        { key: 'merged', dot: 'dot-merged',  prs: merged,        label: 'merged' },
+        { key: 'closed', dot: 'dot-closed',  prs: closed,        label: 'closed' },
+      ];
+
+      return items
+        .filter(i => i.prs.length > 0)
+        .map(i => {
+          const range = dateRange(i.prs);
+          const subtitle = range ? `<span class="chip-date">${range}</span>` : '';
+          return `<div class="summary-chip${activeFilter === i.key ? ' active' : ''}" data-filter="${i.key}" onclick="applyFilter('${i.key}')"><span class="dot ${i.dot}"></span><span class="chip-content"><span class="chip-main">${i.prs.length} ${i.label}</span>${subtitle}</span></div>`;
+        })
+        .join('');
+    }
+
+    function sortPrs(prs) {
+      if (activeSort === 'created-old') {
+        return [...prs].sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+      }
+      if (activeSort === 'created-new') {
+        return [...prs].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+      }
+      return [...prs].sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+    }
+
+    function updateSortButtons() {
+      document.querySelectorAll('.sort-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.sort === activeSort);
+      });
+    }
+
+    function setSort(key) {
+      activeSort = key;
+      updateSortButtons();
+      rerenderCards();
+    }
+
+    function rerenderCards() {
+      if (activeFilter) {
+        const filter = filters[activeFilter];
+        if (!filter) return;
+        const matched = sortPrs(allPrs.filter(filter.fn));
+        document.getElementById('filter-label').textContent = `Showing ${matched.length} PRs: ${filter.label}`;
+        const cards = matched.map(renderCard).join('');
+        document.getElementById('filtered-section').innerHTML = cards || '<div class="empty-state"><p>No PRs match this filter</p></div>';
+      } else {
+        const open = sortPrs(allPrs.filter(p => p.state === 'OPEN'));
+        const merged = sortPrs(allPrs.filter(p => p.state === 'MERGED'));
+        const closed = sortPrs(allPrs.filter(p => p.state === 'CLOSED'));
+        document.getElementById('open-section').innerHTML = renderSection('Open', open, false);
+        document.getElementById('merged-section').innerHTML = renderSection('Merged', merged, true);
+        document.getElementById('closed-section').innerHTML = renderSection('Closed', closed, true);
+      }
+    }
+
+    function renderSection(title, prs, collapsed) {
+      if (!prs.length) return '';
+      const cards = prs.map(renderCard).join('');
+      return `
+        <div class="section-heading ${collapsed ? 'collapsed' : ''}" onclick="this.classList.toggle('collapsed'); this.nextElementSibling.classList.toggle('hidden');">
+          <span class="chevron">&#9660;</span> ${title} (${prs.length})
+        </div>
+        <div class="section-content ${collapsed ? 'hidden' : ''}">${cards}</div>
+      `;
+    }
+
+    function renderDefault() {
+      const prs = allPrs;
+
+      document.getElementById('filter-bar').classList.add('hidden');
+      document.getElementById('filtered-section').innerHTML = '';
+
+      const open = sortPrs(prs.filter(p => p.state === 'OPEN'));
+      const merged = sortPrs(prs.filter(p => p.state === 'MERGED'));
+      const closed = sortPrs(prs.filter(p => p.state === 'CLOSED'));
+
+      document.getElementById('rollup').innerHTML = renderRollup(prs);
+      document.getElementById('summary-bar').innerHTML = renderSummary(prs);
+      document.getElementById('open-section').innerHTML = renderSection('Open', open, false);
+      document.getElementById('merged-section').innerHTML = renderSection('Merged', merged, true);
+      document.getElementById('closed-section').innerHTML = renderSection('Closed', closed, true);
+    }
+
+    function applyFilter(key) {
+      if (activeFilter === key) {
+        clearFilter();
+        return;
+      }
+
+      activeFilter = key;
+      const filter = filters[key];
+      if (!filter) return;
+
+      const matched = sortPrs(allPrs.filter(filter.fn));
+
+      document.getElementById('rollup').innerHTML = renderRollup(allPrs);
+      document.getElementById('summary-bar').innerHTML = renderSummary(allPrs);
+
+      document.getElementById('open-section').innerHTML = '';
+      document.getElementById('merged-section').innerHTML = '';
+      document.getElementById('closed-section').innerHTML = '';
+
+      document.getElementById('filter-bar').classList.remove('hidden');
+      document.getElementById('filter-label').textContent = `Showing ${matched.length} PRs: ${filter.label}`;
+
+      const cards = matched.map(renderCard).join('');
+      document.getElementById('filtered-section').innerHTML = cards || '<div class="empty-state"><p>No PRs match this filter</p></div>';
+    }
+
+    function clearFilter() {
+      activeFilter = null;
+      renderDefault();
+    }
+
+    async function init() {
+      const data = await loadData();
+      allPrs = data.prs || [];
+      lastRefreshed = data.lastRefreshed;
+
+      if (!allPrs.length) {
+        document.getElementById('open-section').innerHTML = `
+          <div class="empty-state">
+            <p>No PRs tracked yet</p>
+            <p>Create a PR with Cursor and it'll show up here automatically.</p>
+          </div>`;
+        return;
+      }
+
+      renderDefault();
+
+      if (lastRefreshed) {
+        document.getElementById('last-updated').textContent = `Last refreshed: ${new Date(lastRefreshed).toLocaleString()}`;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
