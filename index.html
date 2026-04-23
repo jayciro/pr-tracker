@@ -445,9 +445,9 @@
   </div>
   <div id="sort-bar" class="sort-bar">
     <span class="sort-label">Sort by</span>
-    <button class="sort-btn active" data-sort="created-old" onclick="setSort('created-old')">Oldest first</button>
+    <button class="sort-btn active" data-sort="updated" onclick="setSort('updated')">Last updated</button>
     <button class="sort-btn" data-sort="created-new" onclick="setSort('created-new')">Newest first</button>
-    <button class="sort-btn" data-sort="updated" onclick="setSort('updated')">Last updated</button>
+    <button class="sort-btn" data-sort="created-old" onclick="setSort('created-old')">Oldest first</button>
   </div>
   <div id="open-section"></div>
   <div id="merged-section"></div>
@@ -459,7 +459,7 @@
     let allPrs = [];
     let lastRefreshed = null;
     let activeFilter = null;
-    let activeSort = 'created-old';
+    let activeSort = 'updated';
 
     const filters = {
       open:    { label: 'Open',              fn: p => p.state === 'OPEN' },
