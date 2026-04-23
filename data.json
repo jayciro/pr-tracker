@@ -902,12 +902,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-04-23T18:54:29Z",
+      "updatedAt": "2026-04-23T19:41:19Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -920,12 +921,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057951+00:00",
-      "updatedAt": "2026-04-23T18:54:36Z",
+      "updatedAt": "2026-04-23T19:58:40Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -937,12 +939,13 @@
       "state": "OPEN",
       "reviewStatus": "PENDING",
       "reviewers": [
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057954+00:00",
-      "updatedAt": "2026-04-23T18:54:38Z",
+      "updatedAt": "2026-04-23T20:01:30Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -955,12 +958,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057956+00:00",
-      "updatedAt": "2026-04-23T18:54:40Z",
+      "updatedAt": "2026-04-23T19:59:22Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -972,12 +976,13 @@
       "state": "OPEN",
       "reviewStatus": "PENDING",
       "reviewers": [
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057958+00:00",
-      "updatedAt": "2026-04-23T18:54:42Z",
+      "updatedAt": "2026-04-23T19:41:20Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -990,12 +995,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057960+00:00",
-      "updatedAt": "2026-04-23T18:55:37Z",
+      "updatedAt": "2026-04-23T19:57:52Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1008,12 +1014,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057961+00:00",
-      "updatedAt": "2026-04-23T18:54:46Z",
+      "updatedAt": "2026-04-23T19:58:54Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1025,12 +1032,13 @@
       "state": "OPEN",
       "reviewStatus": "PENDING",
       "reviewers": [
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057963+00:00",
-      "updatedAt": "2026-04-23T18:54:48Z",
+      "updatedAt": "2026-04-23T20:05:02Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1043,12 +1051,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057965+00:00",
-      "updatedAt": "2026-04-23T18:54:50Z",
+      "updatedAt": "2026-04-23T20:00:39Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1060,12 +1069,13 @@
       "state": "OPEN",
       "reviewStatus": "PENDING",
       "reviewers": [
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057966+00:00",
-      "updatedAt": "2026-04-23T18:54:52Z",
+      "updatedAt": "2026-04-23T20:02:59Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1078,12 +1088,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057968+00:00",
-      "updatedAt": "2026-04-23T18:54:54Z",
+      "updatedAt": "2026-04-23T19:59:57Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1096,12 +1107,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057969+00:00",
-      "updatedAt": "2026-04-23T18:55:51Z",
+      "updatedAt": "2026-04-23T20:08:43Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1113,12 +1125,13 @@
       "state": "OPEN",
       "reviewStatus": "PENDING",
       "reviewers": [
-        "lena-dd"
+        "copilot-pull-request-reviewer",
+        "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057971+00:00",
-      "updatedAt": "2026-04-23T18:56:26Z",
+      "updatedAt": "2026-04-23T19:42:04Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1239,5 +1252,5 @@
       "mergeable": "UNKNOWN"
     }
   ],
-  "lastRefreshed": "2026-04-23T18:57:20.502374+00:00"
+  "lastRefreshed": "2026-04-23T22:05:49.630390+00:00"
 }
