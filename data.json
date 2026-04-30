@@ -116,9 +116,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-03T16:30:40Z",
-      "updatedAt": "2026-04-21T15:07:35Z",
+      "updatedAt": "2026-04-24T17:10:59Z",
       "author": "app/dd-robotino",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "DDS-275 Content Changes Requested",
@@ -268,7 +268,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-03-20T21:00:28Z",
-      "updatedAt": "2026-04-22T17:45:51Z",
+      "updatedAt": "2026-04-24T17:12:35Z",
       "author": "app/dd-robotino",
       "mergeable": "UNKNOWN"
     },
@@ -570,9 +570,9 @@
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-21T17:07:28Z",
-      "updatedAt": "2026-04-22T00:37:47Z",
+      "updatedAt": "2026-04-24T17:10:08Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "DDS-237 Content Changes Requested",
@@ -595,7 +595,7 @@
       "createdAt": "2026-04-21T17:13:37Z",
       "updatedAt": "2026-04-21T22:18:26Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "DDS-266 Content Changes Requested",
@@ -603,15 +603,16 @@
       "repo": "doordash/ios",
       "branch": "i18n/DDS-266_dx-ios",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "maatheusgois-dd",
         "teedesai"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T17:19:31Z",
-      "updatedAt": "2026-04-21T21:24:39Z",
+      "updatedAt": "2026-04-24T21:33:24Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -640,15 +641,16 @@
       "repo": "doordash/ios",
       "branch": "i18n/DDS-270_dx-ios",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "maatheusgois-dd",
         "teedesai"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T17:26:58Z",
-      "updatedAt": "2026-04-21T22:19:46Z",
+      "updatedAt": "2026-04-24T17:20:21Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -666,9 +668,9 @@
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-21T17:27:00Z",
-      "updatedAt": "2026-04-22T00:37:25Z",
+      "updatedAt": "2026-04-24T17:30:21Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "DDS-268 Content Changes Requested",
@@ -908,9 +910,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-04-23T19:41:19Z",
+      "updatedAt": "2026-04-25T01:43:23Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case store and browse button CTAs",
@@ -927,9 +929,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057951+00:00",
-      "updatedAt": "2026-04-23T19:58:40Z",
+      "updatedAt": "2026-04-25T11:59:04Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case order status and history button CTAs",
@@ -945,9 +947,9 @@
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057954+00:00",
-      "updatedAt": "2026-04-23T20:01:30Z",
+      "updatedAt": "2026-04-24T17:31:30Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case ratings and reviews button CTAs",
@@ -964,9 +966,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057956+00:00",
-      "updatedAt": "2026-04-23T19:59:22Z",
+      "updatedAt": "2026-04-25T02:19:49Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case gift cards and gifts button CTAs",
@@ -974,17 +976,18 @@
       "repo": "doordash/android",
       "branch": "content/sentence-case-cx-gifts",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057958+00:00",
-      "updatedAt": "2026-04-23T19:41:20Z",
+      "updatedAt": "2026-04-24T21:17:29Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case group order button CTAs",
@@ -1001,9 +1004,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057960+00:00",
-      "updatedAt": "2026-04-23T19:57:52Z",
+      "updatedAt": "2026-04-25T11:57:00Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case location and address button CTAs",
@@ -1020,9 +1023,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057961+00:00",
-      "updatedAt": "2026-04-23T19:58:54Z",
+      "updatedAt": "2026-04-25T11:54:37Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case payments and expense button CTAs",
@@ -1030,17 +1033,18 @@
       "repo": "doordash/android",
       "branch": "content/sentence-case-cx-payments",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057963+00:00",
-      "updatedAt": "2026-04-23T20:05:02Z",
+      "updatedAt": "2026-04-24T21:17:23Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case convenience and grocery button CTAs",
@@ -1057,9 +1061,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057965+00:00",
-      "updatedAt": "2026-04-23T20:00:39Z",
+      "updatedAt": "2026-04-25T02:02:04Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case onboarding and verification button CTAs",
@@ -1075,9 +1079,9 @@
       "ciStatus": "PENDING",
       "tldr": "Waiting on review",
       "createdAt": "2026-04-23T18:56:40.057966+00:00",
-      "updatedAt": "2026-04-23T20:02:59Z",
+      "updatedAt": "2026-04-24T17:31:20Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case support and safety button CTAs",
@@ -1094,9 +1098,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057968+00:00",
-      "updatedAt": "2026-04-23T19:59:57Z",
+      "updatedAt": "2026-04-25T12:01:47Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case subscriptions and DashPass button CTAs",
@@ -1113,9 +1117,9 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057969+00:00",
-      "updatedAt": "2026-04-23T23:41:29Z",
+      "updatedAt": "2026-04-25T01:58:50Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case misc button CTAs",
@@ -1123,17 +1127,18 @@
       "repo": "doordash/android",
       "branch": "content/sentence-case-cx-misc",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057971+00:00",
-      "updatedAt": "2026-04-23T19:42:04Z",
+      "updatedAt": "2026-04-24T21:20:00Z",
       "author": "jayciro",
-      "mergeable": "UNKNOWN"
+      "mergeable": "MERGEABLE"
     },
     {
       "title": "Content: Sentence-case subscriptions and upsell button CTAs",
@@ -1145,12 +1150,13 @@
       "reviewers": [
         "dd-translation-pr-approve",
         "copilot-pull-request-reviewer",
+        "maatheusgois-dd",
         "lena-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057973+00:00",
-      "updatedAt": "2026-04-22T21:24:33Z",
+      "updatedAt": "2026-04-28T16:46:55Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1164,12 +1170,13 @@
       "reviewers": [
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
+        "maatheusgois-dd",
         "lena-dd"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057975+00:00",
-      "updatedAt": "2026-04-22T21:28:33Z",
+      "updatedAt": "2026-04-28T16:45:23Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1183,12 +1190,13 @@
       "reviewers": [
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
+        "maatheusgois-dd",
         "lena-dd"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-04-22T21:25:37Z",
+      "updatedAt": "2026-04-28T16:43:21Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1207,7 +1215,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057980+00:00",
-      "updatedAt": "2026-04-22T21:24:09Z",
+      "updatedAt": "2026-04-27T14:17:25Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1226,7 +1234,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-04-22T21:31:56Z",
+      "updatedAt": "2026-04-27T14:18:14Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -1241,16 +1249,16 @@
         "copilot-pull-request-reviewer",
         "lena-dd",
         "flux-dd",
-        "linshucocopeng",
-        "ruthvikram12"
+        "ruthvikram12",
+        "linshucocopeng"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057984+00:00",
-      "updatedAt": "2026-04-20T20:37:17Z",
+      "updatedAt": "2026-04-27T11:35:02Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     }
   ],
-  "lastRefreshed": "2026-04-24T15:57:34.115295+00:00"
+  "lastRefreshed": "2026-04-30T16:24:50.125359+00:00"
 }
