@@ -32,16 +32,16 @@
         "copilot-pull-request-reviewer",
         "nitinshettydd",
         "jayciro",
+        "gling-dd",
         "justindeocampodd",
         "richnelson-dd",
-        "gling-dd",
         "vluoto",
         "dd-zecheng"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-03-25T19:05:06Z",
-      "updatedAt": "2026-04-30T17:03:25Z",
+      "updatedAt": "2026-05-01T16:45:42Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -125,7 +125,7 @@
       "url": "https://github.com/doordash/android/pull/77193",
       "repo": "doordash/android",
       "branch": "i18n/DDS-275_dx-android",
-      "state": "OPEN",
+      "state": "MERGED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
@@ -133,9 +133,9 @@
         "lena-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "tldr": "Merged!",
       "createdAt": "2026-04-01T18:03:36Z",
-      "updatedAt": "2026-04-22T00:37:26Z",
+      "updatedAt": "2026-05-01T16:08:40Z",
       "author": "app/dd-robotino",
       "mergeable": "UNKNOWN"
     },
@@ -259,16 +259,16 @@
       "url": "https://github.com/doordash/android/pull/73693",
       "repo": "doordash/android",
       "branch": "i18n/DDS-271_dx-android",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
         "lena-dd"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-03-20T21:00:28Z",
-      "updatedAt": "2026-04-30T17:41:12Z",
+      "updatedAt": "2026-05-01T19:50:12Z",
       "author": "app/dd-robotino",
       "mergeable": "UNKNOWN"
     },
@@ -552,7 +552,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-16T21:58:52Z",
-      "updatedAt": "2026-04-30T16:26:42Z",
+      "updatedAt": "2026-05-01T15:37:54Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -561,16 +561,16 @@
       "url": "https://github.com/doordash/android/pull/84156",
       "repo": "doordash/android",
       "branch": "i18n/DDS-255_dx-android",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
         "teedesai"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:07:28Z",
-      "updatedAt": "2026-04-24T17:10:08Z",
+      "updatedAt": "2026-05-01T19:50:22Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -579,7 +579,7 @@
       "url": "https://github.com/doordash/android/pull/84160",
       "repo": "doordash/android",
       "branch": "i18n/DDS-237_mx-android",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -591,9 +591,9 @@
         "stephencheng95"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:13:37Z",
-      "updatedAt": "2026-04-21T22:18:26Z",
+      "updatedAt": "2026-05-01T19:50:16Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -621,7 +621,7 @@
       "url": "https://github.com/doordash/ios/pull/74665",
       "repo": "doordash/ios",
       "branch": "i18n/DDS-267_dx-ios",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -629,9 +629,9 @@
         "teedesai"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:22:23Z",
-      "updatedAt": "2026-04-30T16:34:37Z",
+      "updatedAt": "2026-05-01T19:48:47Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -640,7 +640,7 @@
       "url": "https://github.com/doordash/ios/pull/74669",
       "repo": "doordash/ios",
       "branch": "i18n/DDS-270_dx-ios",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -648,9 +648,9 @@
         "teedesai"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:26:58Z",
-      "updatedAt": "2026-04-30T16:35:02Z",
+      "updatedAt": "2026-05-01T19:48:49Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -659,16 +659,16 @@
       "url": "https://github.com/doordash/android/pull/84171",
       "repo": "doordash/android",
       "branch": "i18n/DDS-270_dx-android",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
         "teedesai"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:27:00Z",
-      "updatedAt": "2026-04-24T17:30:21Z",
+      "updatedAt": "2026-05-01T19:48:47Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -677,7 +677,7 @@
       "url": "https://github.com/doordash/ios/pull/74673",
       "repo": "doordash/ios",
       "branch": "i18n/DDS-268_dx-ios",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -686,9 +686,9 @@
         "teedesai"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:30:35Z",
-      "updatedAt": "2026-04-30T16:35:38Z",
+      "updatedAt": "2026-05-01T19:48:51Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -697,15 +697,15 @@
       "url": "https://github.com/doordash/ios/pull/74677",
       "repo": "doordash/ios",
       "branch": "i18n/DDS-274a_dx-ios",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "teedesai"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:34:55Z",
-      "updatedAt": "2026-04-30T16:35:54Z",
+      "updatedAt": "2026-05-01T19:48:54Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -714,15 +714,15 @@
       "url": "https://github.com/doordash/ios/pull/74679",
       "repo": "doordash/ios",
       "branch": "i18n/DDS-274b_dx-ios",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "teedesai"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:35:31Z",
-      "updatedAt": "2026-04-30T17:15:08Z",
+      "updatedAt": "2026-05-01T19:48:57Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -748,7 +748,7 @@
       "url": "https://github.com/doordash/ios/pull/74685",
       "repo": "doordash/ios",
       "branch": "i18n/DDS-256_dx-ios",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -756,9 +756,9 @@
         "teedesai"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:43:49Z",
-      "updatedAt": "2026-04-30T16:37:17Z",
+      "updatedAt": "2026-05-01T19:48:59Z",
       "author": "jayciro",
       "mergeable": "UNKNOWN"
     },
@@ -767,16 +767,16 @@
       "url": "https://github.com/doordash/web-next/pull/113646",
       "repo": "doordash/web-next",
       "branch": "i18n/DDS-254_mx-portal",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "PENDING",
       "reviewers": [
         "copilot-pull-request-reviewer",
         "teedesai"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T17:54:11Z",
-      "updatedAt": "2026-04-21T22:17:55Z",
+      "updatedAt": "2026-05-01T19:49:05Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -910,7 +910,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-04-30T16:39:01Z",
+      "updatedAt": "2026-05-01T16:00:00Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1013,7 +1013,7 @@
       "url": "https://github.com/doordash/android/pull/85298",
       "repo": "doordash/android",
       "branch": "content/sentence-case-cx-location",
-      "state": "OPEN",
+      "state": "MERGED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "dd-translation-pr-approve",
@@ -1021,9 +1021,9 @@
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "tldr": "Merged!",
       "createdAt": "2026-04-23T18:56:40.057961+00:00",
-      "updatedAt": "2026-04-30T16:26:59Z",
+      "updatedAt": "2026-05-01T16:01:37Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1260,5 +1260,5 @@
       "mergeable": "UNKNOWN"
     }
   ],
-  "lastRefreshed": "2026-05-01T15:04:46.519179+00:00"
+  "lastRefreshed": "2026-05-01T19:57:31.574793+00:00"
 }
