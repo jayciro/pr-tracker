@@ -41,7 +41,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-03-25T19:05:06Z",
-      "updatedAt": "2026-05-01T16:45:42Z",
+      "updatedAt": "2026-05-04T19:03:18Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -58,10 +58,10 @@
         "lena-dd",
         "empiredanger"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-03-04T01:22:53Z",
-      "updatedAt": "2026-04-30T17:06:42Z",
+      "updatedAt": "2026-05-04T20:43:09Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -542,17 +542,19 @@
       "repo": "doordash/android",
       "branch": "jayc/cx-favs-mins-abbreviation",
       "state": "OPEN",
-      "reviewStatus": "APPROVED",
+      "reviewStatus": "CHANGES_REQUESTED",
       "reviewers": [
         "copilot-pull-request-reviewer",
         "lena-dd",
         "jayciro",
-        "michaeladaikalarajdd"
+        "flux-dd",
+        "michaeladaikalarajdd",
+        "michaelhintondd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "tldr": "Changes requested by @michaeladaikalarajdd",
       "createdAt": "2026-04-16T21:58:52Z",
-      "updatedAt": "2026-05-01T15:37:54Z",
+      "updatedAt": "2026-05-05T13:44:32Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -813,7 +815,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711571+00:00",
-      "updatedAt": "2026-04-30T17:26:04Z",
+      "updatedAt": "2026-05-04T19:05:06Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -853,7 +855,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711576+00:00",
-      "updatedAt": "2026-04-30T17:17:13Z",
+      "updatedAt": "2026-05-04T19:05:32Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -910,7 +912,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-05-01T16:00:00Z",
+      "updatedAt": "2026-05-04T20:46:12Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -939,15 +941,16 @@
       "repo": "doordash/android",
       "branch": "content/sentence-case-cx-order-status",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057954+00:00",
-      "updatedAt": "2026-04-24T17:31:30Z",
+      "updatedAt": "2026-05-04T19:34:44Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -985,7 +988,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057958+00:00",
-      "updatedAt": "2026-04-30T16:48:47Z",
+      "updatedAt": "2026-05-04T19:28:31Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1071,15 +1074,16 @@
       "repo": "doordash/android",
       "branch": "content/sentence-case-cx-onboarding",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Waiting on review",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057966+00:00",
-      "updatedAt": "2026-04-24T17:31:20Z",
+      "updatedAt": "2026-05-04T19:34:20Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1176,7 +1180,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057975+00:00",
-      "updatedAt": "2026-04-30T17:08:29Z",
+      "updatedAt": "2026-05-04T19:06:08Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1196,7 +1200,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-04-30T17:11:44Z",
+      "updatedAt": "2026-05-04T19:06:36Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1234,7 +1238,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-04-30T17:14:32Z",
+      "updatedAt": "2026-05-04T20:01:14Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1243,7 +1247,7 @@
       "url": "https://github.com/doordash/ios/pull/74459",
       "repo": "doordash/ios",
       "branch": "jayc/cx-favs-mins-followup",
-      "state": "OPEN",
+      "state": "MERGED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -1253,9 +1257,9 @@
         "linshucocopeng"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "tldr": "Merged!",
       "createdAt": "2026-04-23T18:56:40.057984+00:00",
-      "updatedAt": "2026-04-27T11:35:02Z",
+      "updatedAt": "2026-05-04T19:49:44Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1305,7 +1309,7 @@
       "state": "OPEN",
       "branch": "content/sentence-case-dx-time-pickup",
       "createdAt": "2026-05-01T19:51:25Z",
-      "updatedAt": "2026-05-01T23:15:00Z",
+      "updatedAt": "2026-05-04T20:19:34Z",
       "tldr": "CI failing",
       "reviewStatus": "APPROVED",
       "reviewers": [
@@ -1335,5 +1339,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-04T18:24:38.623251+00:00"
+  "lastRefreshed": "2026-05-05T16:17:34.735395+00:00"
 }
