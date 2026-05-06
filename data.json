@@ -41,7 +41,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-03-25T19:05:06Z",
-      "updatedAt": "2026-05-05T19:06:12Z",
+      "updatedAt": "2026-05-06T16:22:15Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -794,10 +794,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711419+00:00",
-      "updatedAt": "2026-05-05T22:49:36Z",
+      "updatedAt": "2026-05-06T16:51:27Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -895,7 +895,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711580+00:00",
-      "updatedAt": "2026-05-05T23:20:10Z",
+      "updatedAt": "2026-05-06T16:30:09Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -912,10 +912,10 @@
         "tduarte-dd",
         "flux-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-05-05T23:05:19Z",
+      "updatedAt": "2026-05-06T16:22:16Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1208,7 +1208,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-05-05T22:45:46Z",
+      "updatedAt": "2026-05-06T16:52:40Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1348,5 +1348,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-06T16:20:51.018781+00:00"
+  "lastRefreshed": "2026-05-06T19:16:46.019742+00:00"
 }
