@@ -41,7 +41,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-03-25T19:05:06Z",
-      "updatedAt": "2026-05-04T19:03:18Z",
+      "updatedAt": "2026-05-05T19:06:12Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -541,7 +541,7 @@
       "url": "https://github.com/doordash/android/pull/82839",
       "repo": "doordash/android",
       "branch": "jayc/cx-favs-mins-abbreviation",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "CHANGES_REQUESTED",
       "reviewers": [
         "copilot-pull-request-reviewer",
@@ -552,9 +552,9 @@
         "michaelhintondd"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Changes requested by @michaeladaikalarajdd",
+      "tldr": "Closed",
       "createdAt": "2026-04-16T21:58:52Z",
-      "updatedAt": "2026-05-05T13:44:32Z",
+      "updatedAt": "2026-05-05T23:06:53Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -791,12 +791,13 @@
       "reviewStatus": "APPROVED",
       "reviewers": [
         "copilot-pull-request-reviewer",
-        "lena-dd"
+        "lena-dd",
+        "flux-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T20:46:08.711419+00:00",
-      "updatedAt": "2026-04-22T20:32:27Z",
+      "updatedAt": "2026-05-05T22:49:36Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -810,12 +811,13 @@
       "reviewers": [
         "dd-translation-pr-approve",
         "copilot-pull-request-reviewer",
-        "lena-dd"
+        "lena-dd",
+        "flux-dd"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711571+00:00",
-      "updatedAt": "2026-05-04T19:05:06Z",
+      "updatedAt": "2026-05-05T23:16:52Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -855,7 +857,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711576+00:00",
-      "updatedAt": "2026-05-04T19:05:32Z",
+      "updatedAt": "2026-05-05T22:46:28Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -893,7 +895,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-21T20:46:08.711580+00:00",
-      "updatedAt": "2026-04-30T17:12:06Z",
+      "updatedAt": "2026-05-05T23:20:10Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -907,12 +909,13 @@
       "reviewers": [
         "dd-translation-pr-approve",
         "copilot-pull-request-reviewer",
-        "tduarte-dd"
+        "tduarte-dd",
+        "flux-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-05-04T20:46:12Z",
+      "updatedAt": "2026-05-05T23:05:19Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -945,12 +948,13 @@
       "reviewers": [
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
+        "flux-dd",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057954+00:00",
-      "updatedAt": "2026-05-04T19:34:44Z",
+      "updatedAt": "2026-05-05T23:04:17Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -983,12 +987,13 @@
       "reviewers": [
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
-        "tduarte-dd"
+        "tduarte-dd",
+        "flux-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057958+00:00",
-      "updatedAt": "2026-05-04T19:28:31Z",
+      "updatedAt": "2026-05-05T22:53:13Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1078,12 +1083,13 @@
       "reviewers": [
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
+        "flux-dd",
         "tduarte-dd"
       ],
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057966+00:00",
-      "updatedAt": "2026-05-04T19:34:20Z",
+      "updatedAt": "2026-05-05T23:01:50Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1175,12 +1181,13 @@
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
         "maatheusgois-dd",
-        "lena-dd"
+        "lena-dd",
+        "flux-dd"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057975+00:00",
-      "updatedAt": "2026-05-04T19:06:08Z",
+      "updatedAt": "2026-05-05T22:43:00Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1195,12 +1202,13 @@
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
         "maatheusgois-dd",
-        "lena-dd"
+        "lena-dd",
+        "flux-dd"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-05-04T19:06:36Z",
+      "updatedAt": "2026-05-05T22:45:46Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1233,12 +1241,13 @@
       "reviewers": [
         "copilot-pull-request-reviewer",
         "dd-translation-pr-approve",
-        "lena-dd"
+        "lena-dd",
+        "flux-dd"
       ],
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-05-04T20:01:14Z",
+      "updatedAt": "2026-05-05T23:42:27Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1309,7 +1318,7 @@
       "state": "OPEN",
       "branch": "content/sentence-case-dx-time-pickup",
       "createdAt": "2026-05-01T19:51:25Z",
-      "updatedAt": "2026-05-04T20:19:34Z",
+      "updatedAt": "2026-05-05T23:03:04Z",
       "tldr": "CI failing",
       "reviewStatus": "APPROVED",
       "reviewers": [
@@ -1339,5 +1348,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-05T16:17:34.735395+00:00"
+  "lastRefreshed": "2026-05-06T16:20:51.018781+00:00"
 }
