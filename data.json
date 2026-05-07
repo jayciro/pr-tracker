@@ -794,10 +794,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T20:46:08.711419+00:00",
-      "updatedAt": "2026-05-06T16:51:27Z",
+      "updatedAt": "2026-05-07T18:19:59Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -814,10 +814,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T20:46:08.711571+00:00",
-      "updatedAt": "2026-05-05T23:16:52Z",
+      "updatedAt": "2026-05-07T18:22:16Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -854,10 +854,10 @@
         "lena-dd",
         "dd-translation-pr-approve"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T20:46:08.711576+00:00",
-      "updatedAt": "2026-05-05T22:46:28Z",
+      "updatedAt": "2026-05-06T19:21:04Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -886,16 +886,17 @@
       "repo": "doordash/ios",
       "branch": "content/sentence-case-permissions",
       "state": "OPEN",
-      "reviewStatus": "PENDING",
+      "reviewStatus": "APPROVED",
       "reviewers": [
         "flux-dd",
         "copilot-pull-request-reviewer",
+        "dd-translation-pr-approve",
         "lena-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T20:46:08.711580+00:00",
-      "updatedAt": "2026-05-06T16:30:09Z",
+      "updatedAt": "2026-05-07T18:05:49Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -915,7 +916,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057821+00:00",
-      "updatedAt": "2026-05-06T16:22:16Z",
+      "updatedAt": "2026-05-07T18:34:50Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -951,10 +952,10 @@
         "flux-dd",
         "tduarte-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057954+00:00",
-      "updatedAt": "2026-05-05T23:04:17Z",
+      "updatedAt": "2026-05-07T18:04:37Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -990,10 +991,10 @@
         "tduarte-dd",
         "flux-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057958+00:00",
-      "updatedAt": "2026-05-05T22:53:13Z",
+      "updatedAt": "2026-05-07T18:04:41Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1086,10 +1087,10 @@
         "flux-dd",
         "tduarte-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057966+00:00",
-      "updatedAt": "2026-05-05T23:01:50Z",
+      "updatedAt": "2026-05-07T18:04:39Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1184,10 +1185,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057975+00:00",
-      "updatedAt": "2026-05-05T22:43:00Z",
+      "updatedAt": "2026-05-06T19:55:12Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1205,10 +1206,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-05-06T16:52:40Z",
+      "updatedAt": "2026-05-07T18:24:24Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1244,10 +1245,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-05-05T23:42:27Z",
+      "updatedAt": "2026-05-07T18:26:04Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1318,7 +1319,7 @@
       "state": "OPEN",
       "branch": "content/sentence-case-dx-time-pickup",
       "createdAt": "2026-05-01T19:51:25Z",
-      "updatedAt": "2026-05-05T23:03:04Z",
+      "updatedAt": "2026-05-07T18:28:26Z",
       "tldr": "CI failing",
       "reviewStatus": "APPROVED",
       "reviewers": [
@@ -1348,5 +1349,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-06T19:16:46.019742+00:00"
+  "lastRefreshed": "2026-05-07T18:37:35.910138+00:00"
 }
