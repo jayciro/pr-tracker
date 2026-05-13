@@ -738,10 +738,10 @@
       "reviewers": [
         "teedesai"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T17:36:08Z",
-      "updatedAt": "2026-05-07T18:47:05Z",
+      "updatedAt": "2026-05-08T20:39:10Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -788,16 +788,17 @@
       "repo": "doordash/ios",
       "branch": "content/sentence-case-checkout",
       "state": "OPEN",
-      "reviewStatus": "APPROVED",
+      "reviewStatus": "CHANGES_REQUESTED",
       "reviewers": [
         "copilot-pull-request-reviewer",
         "lena-dd",
-        "flux-dd"
+        "flux-dd",
+        "danialzahid-dd"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Changes requested by @danialzahid-dd",
       "createdAt": "2026-04-21T20:46:08.711419+00:00",
-      "updatedAt": "2026-05-07T18:19:59Z",
+      "updatedAt": "2026-05-12T14:01:43Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -807,17 +808,18 @@
       "repo": "doordash/ios",
       "branch": "content/sentence-case-store",
       "state": "OPEN",
-      "reviewStatus": "APPROVED",
+      "reviewStatus": "CHANGES_REQUESTED",
       "reviewers": [
         "dd-translation-pr-approve",
         "copilot-pull-request-reviewer",
         "lena-dd",
-        "flux-dd"
+        "flux-dd",
+        "danialzahid-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Changes requested by @danialzahid-dd",
       "createdAt": "2026-04-21T20:46:08.711571+00:00",
-      "updatedAt": "2026-05-07T18:52:59Z",
+      "updatedAt": "2026-05-12T14:02:42Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1164,10 +1166,10 @@
         "maatheusgois-dd",
         "lena-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057973+00:00",
-      "updatedAt": "2026-05-07T18:47:50Z",
+      "updatedAt": "2026-05-08T19:54:17Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1209,7 +1211,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-05-07T18:49:41Z",
+      "updatedAt": "2026-05-08T20:33:28Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1225,10 +1227,10 @@
         "dd-translation-pr-approve",
         "lena-dd"
       ],
-      "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "ciStatus": "PENDING",
+      "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057980+00:00",
-      "updatedAt": "2026-05-07T19:24:21Z",
+      "updatedAt": "2026-05-08T20:19:28Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1248,7 +1250,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-05-07T18:26:04Z",
+      "updatedAt": "2026-05-08T20:51:52Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1319,7 +1321,7 @@
       "state": "OPEN",
       "branch": "content/sentence-case-dx-time-pickup",
       "createdAt": "2026-05-01T19:51:25Z",
-      "updatedAt": "2026-05-07T19:23:57Z",
+      "updatedAt": "2026-05-08T20:58:24Z",
       "tldr": "CI failing",
       "reviewStatus": "APPROVED",
       "reviewers": [
@@ -1349,5 +1351,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-08T19:42:59.603130+00:00"
+  "lastRefreshed": "2026-05-13T16:13:29.215885+00:00"
 }
