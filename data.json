@@ -58,10 +58,10 @@
         "lena-dd",
         "empiredanger"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-03-04T01:22:53Z",
-      "updatedAt": "2026-05-04T20:43:09Z",
+      "updatedAt": "2026-05-13T18:55:15Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -611,10 +611,10 @@
         "maatheusgois-dd",
         "teedesai"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-21T17:19:31Z",
-      "updatedAt": "2026-04-30T16:34:11Z",
+      "updatedAt": "2026-05-13T18:57:44Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -738,10 +738,10 @@
       "reviewers": [
         "teedesai"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-21T17:36:08Z",
-      "updatedAt": "2026-05-08T20:39:10Z",
+      "updatedAt": "2026-05-13T18:58:10Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -849,7 +849,7 @@
       "url": "https://github.com/doordash/ios/pull/74721",
       "repo": "doordash/ios",
       "branch": "content/sentence-case-postcheckout",
-      "state": "OPEN",
+      "state": "MERGED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "flux-dd",
@@ -858,9 +858,9 @@
         "dd-translation-pr-approve"
       ],
       "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "tldr": "Merged!",
       "createdAt": "2026-04-21T20:46:08.711576+00:00",
-      "updatedAt": "2026-05-13T18:36:52Z",
+      "updatedAt": "2026-05-13T19:40:21Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -899,7 +899,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-21T20:46:08.711580+00:00",
-      "updatedAt": "2026-05-13T18:48:55Z",
+      "updatedAt": "2026-05-13T18:59:36Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1170,7 +1170,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057973+00:00",
-      "updatedAt": "2026-05-13T18:40:39Z",
+      "updatedAt": "2026-05-14T10:59:26Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1191,7 +1191,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057975+00:00",
-      "updatedAt": "2026-05-13T18:36:47Z",
+      "updatedAt": "2026-05-13T19:00:49Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1209,10 +1209,10 @@
         "lena-dd",
         "flux-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-05-13T18:42:22Z",
+      "updatedAt": "2026-05-14T09:46:03Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1231,7 +1231,7 @@
       "ciStatus": "PENDING",
       "tldr": "Approved, waiting on CI",
       "createdAt": "2026-04-23T18:56:40.057980+00:00",
-      "updatedAt": "2026-05-13T18:41:51Z",
+      "updatedAt": "2026-05-13T19:02:07Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1251,7 +1251,7 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-05-13T18:45:12Z",
+      "updatedAt": "2026-05-14T10:59:28Z",
       "author": "jayciro",
       "mergeable": "MERGEABLE"
     },
@@ -1322,8 +1322,8 @@
       "state": "OPEN",
       "branch": "content/sentence-case-dx-time-pickup",
       "createdAt": "2026-05-01T19:51:25Z",
-      "updatedAt": "2026-05-13T18:46:05Z",
-      "tldr": "Approved, waiting on CI",
+      "updatedAt": "2026-05-13T19:03:15Z",
+      "tldr": "CI failing",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "flux-dd",
@@ -1331,7 +1331,7 @@
         "copilot-pull-request-reviewer",
         "lena-dd"
       ],
-      "ciStatus": "PENDING",
+      "ciStatus": "FAILURE",
       "mergeable": "MERGEABLE"
     },
     {
@@ -1352,5 +1352,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-13T18:51:14.092603+00:00"
+  "lastRefreshed": "2026-05-14T18:07:00.444747+00:00"
 }
