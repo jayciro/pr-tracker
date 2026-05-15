@@ -63,7 +63,7 @@
       "createdAt": "2026-03-04T01:22:53Z",
       "updatedAt": "2026-05-13T18:55:15Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Fix Dasher select end time sheet content",
@@ -808,7 +808,7 @@
       "url": "https://github.com/doordash/ios/pull/74511",
       "repo": "doordash/ios",
       "branch": "content/sentence-case-store",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "CHANGES_REQUESTED",
       "reviewers": [
         "dd-translation-pr-approve",
@@ -817,12 +817,12 @@
         "flux-dd",
         "danialzahid-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Changes requested by @danialzahid-dd",
+      "ciStatus": "SUCCESS",
+      "tldr": "Closed",
       "createdAt": "2026-04-21T20:46:08.711571+00:00",
-      "updatedAt": "2026-05-13T17:30:24Z",
+      "updatedAt": "2026-05-14T21:37:01Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Sentence case: payment button CTAs",
@@ -884,7 +884,7 @@
       "mergeable": "UNKNOWN"
     },
     {
-      "title": "Content: Sentence-case permissions and settings button CTAs",
+      "title": "Content: Sentence-case notifications and photo collection button CTAs",
       "url": "https://github.com/doordash/ios/pull/74723",
       "repo": "doordash/ios",
       "branch": "content/sentence-case-permissions",
@@ -901,7 +901,7 @@
       "createdAt": "2026-04-21T20:46:08.711580+00:00",
       "updatedAt": "2026-05-13T18:59:36Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case checkout button CTAs",
@@ -1167,12 +1167,12 @@
         "maatheusgois-dd",
         "lena-dd"
       ],
-      "ciStatus": "PENDING",
-      "tldr": "Approved, waiting on CI",
+      "ciStatus": "FAILURE",
+      "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057973+00:00",
-      "updatedAt": "2026-05-14T10:59:26Z",
+      "updatedAt": "2026-05-14T19:41:31Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case account and auth button CTAs",
@@ -1193,7 +1193,7 @@
       "createdAt": "2026-04-23T18:56:40.057975+00:00",
       "updatedAt": "2026-05-13T19:00:49Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case group order button CTAs",
@@ -1212,9 +1212,9 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057978+00:00",
-      "updatedAt": "2026-05-14T09:46:03Z",
+      "updatedAt": "2026-05-14T19:25:26Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case work benefits button CTAs",
@@ -1233,7 +1233,7 @@
       "createdAt": "2026-04-23T18:56:40.057980+00:00",
       "updatedAt": "2026-05-13T19:02:07Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "Content: Sentence-case remaining button CTAs",
@@ -1251,9 +1251,9 @@
       "ciStatus": "FAILURE",
       "tldr": "CI failing",
       "createdAt": "2026-04-23T18:56:40.057982+00:00",
-      "updatedAt": "2026-05-14T10:59:28Z",
+      "updatedAt": "2026-05-14T19:43:06Z",
       "author": "jayciro",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "title": "[NO-TICKET] Follow-up: harden mins normalization and add unit tests",
@@ -1332,7 +1332,7 @@
         "lena-dd"
       ],
       "ciStatus": "FAILURE",
-      "mergeable": "MERGEABLE"
+      "mergeable": "CONFLICTING"
     },
     {
       "url": "https://github.com/doordash/web-next/pull/117616",
@@ -1352,5 +1352,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-14T18:07:00.444747+00:00"
+  "lastRefreshed": "2026-05-15T17:06:33.753001+00:00"
 }
