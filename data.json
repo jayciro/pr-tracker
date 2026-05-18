@@ -50,7 +50,7 @@
       "url": "https://github.com/doordash/ios/pull/65430",
       "repo": "doordash/ios",
       "branch": "jc-myschedule",
-      "state": "OPEN",
+      "state": "CLOSED",
       "reviewStatus": "APPROVED",
       "reviewers": [
         "flux-dd",
@@ -59,9 +59,9 @@
         "empiredanger"
       ],
       "ciStatus": "FAILURE",
-      "tldr": "CI failing",
+      "tldr": "Closed",
       "createdAt": "2026-03-04T01:22:53Z",
-      "updatedAt": "2026-05-13T18:55:15Z",
+      "updatedAt": "2026-05-15T22:01:46Z",
       "author": "jayciro",
       "mergeable": "CONFLICTING"
     },
@@ -1352,5 +1352,5 @@
       "mergeable": "MERGEABLE"
     }
   ],
-  "lastRefreshed": "2026-05-15T17:06:33.753001+00:00"
+  "lastRefreshed": "2026-05-18T17:14:15.175835+00:00"
 }
